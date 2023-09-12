@@ -1,0 +1,75 @@
+// Font Families
+$fontTitle: 'Della Respira', serif;
+$fontCode2: 'Fragment Mono', monospace;
+$fontArt2: 'Fredericka the Great', cursive;
+$fontParagraph: 'Quicksand', sans-serif;
+$fontArt1: 'Shrikhand', cursive;
+$fontCode1: 'Victor Mono', monospace;
+
+// Color Theme Mixin
+@mixin theme($primaryColor, $secondaryColor, $tertiaryColor, $backgroundColor) {
+    color: $primaryColor;
+    background-color: $backgroundColor;
+
+    .secondary-color-block {
+        background-color: $secondaryColor;
+    }
+
+    .tertiary-color-block {
+        background-color: $tertiaryColor;
+    }
+}
+
+
+:root {
+    font-family: $fontParagraph;
+    line-height: 1.5;
+    font-weight: 400;
+
+    // Color Themes
+    #color-theme_titan {
+        @include theme(#f0f0f0, #c20114, #6d7275, #0c120c);
+    }
+
+    #color-theme_ionic {
+        @include theme(#0c120c, #fc440f, #1effbc, #7c9299);
+    }
+
+    #color-theme_reef {
+        @include theme(#d7c9aa, #0c120c, #0b7a75, #19535f);
+    }
+
+    #color-theme_blossom {
+        @include theme(#f0f0f0, #3e000c, #fb4b4e, #ffcbdd);
+    }
+
+    #color-theme_cacao {
+        @include theme(#0c120c, #c20114, #6d7275, #f0f0f0);
+    }
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+h1 {
+    font-family: $fontTitle;
+}
+
+.art-font {
+    font-family: $fontArt1;
+    background-color: rgba(255, 0, 0, 1);
+    background-image: linear-gradient(to right, rgb(205, 29, 29) 0%, rgb(72, 226, 240) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.code-font {
+    font-family: $fontCode2;
+    color: rgb(0, 255, 0);
+}

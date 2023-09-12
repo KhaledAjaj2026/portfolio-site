@@ -1,15 +1,80 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Quicksand", sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+:root #color-theme_titan {
+  color: #f0f0f0;
+  background-color: #0c120c;
+}
+:root #color-theme_titan .secondary-color-block {
+  background-color: #c20114;
+}
+:root #color-theme_titan .tertiary-color-block {
+  background-color: #6d7275;
+}
+:root #color-theme_ionic {
+  color: #0c120c;
+  background-color: #7c9299;
+}
+:root #color-theme_ionic .secondary-color-block {
+  background-color: #fc440f;
+}
+:root #color-theme_ionic .tertiary-color-block {
+  background-color: #1effbc;
+}
+:root #color-theme_reef {
+  color: #d7c9aa;
+  background-color: #19535f;
+}
+:root #color-theme_reef .secondary-color-block {
+  background-color: #0c120c;
+}
+:root #color-theme_reef .tertiary-color-block {
+  background-color: #0b7a75;
+}
+:root #color-theme_blossom {
+  color: #f0f0f0;
+  background-color: #ffcbdd;
+}
+:root #color-theme_blossom .secondary-color-block {
+  background-color: #3e000c;
+}
+:root #color-theme_blossom .tertiary-color-block {
+  background-color: #fb4b4e;
+}
+:root #color-theme_cacao {
+  color: #0c120c;
+  background-color: #f0f0f0;
+}
+:root #color-theme_cacao .secondary-color-block {
+  background-color: #c20114;
+}
+:root #color-theme_cacao .tertiary-color-block {
+  background-color: #6d7275;
+}
+
+h1 {
+  font-family: "Della Respira", serif;
+}
+
+.art-font {
+  font-family: "Shrikhand", cursive;
+  background-color: rgb(255, 0, 0);
+  background-image: linear-gradient(to right, rgb(205, 29, 29) 0%, rgb(72, 226, 240) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.code-font {
+  font-family: "Fragment Mono", monospace;
+  color: rgb(0, 255, 0);
+}/*# sourceMappingURL=index.css.map */
