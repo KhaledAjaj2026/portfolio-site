@@ -1,0 +1,52 @@
+[
+	{
+		"id": "titan",
+		"colors": {
+			"text": "#ffffff",
+			"primary-color": "#c20114",
+			"secondary-color": "#6d7275",
+			"background": "#0c120c",
+			"color-scheme": "dark"
+		}
+	},
+	{
+		"id": "ionic",
+		"colors": {
+			"text": "#0c120c",
+			"primary-color": "#fc440f",
+			"secondary-color": "#1effbc",
+			"background": "#7c9299",
+			"color-scheme": "dark"
+		}
+	},
+	{
+		"id": "cacao",
+		"colors": {
+			"text": "#0c120c",
+			"primary-color": "#a5402d",
+			"secondary-color": "#ec9244",
+			"background": "#efc1ab",
+			"color-scheme": "light"
+		}
+	},
+	{
+		"id": "blossom",
+		"colors": {
+			"text": "#ffcbdd",
+			"primary-color": "#fb4b4e",
+			"secondary-color": "#894c4e",
+			"background": "#3e000c",
+			"color-scheme": "dark"
+		}
+	},
+	{
+		"id": "reef",
+		"colors": {
+			"text": "#d7c9aa",
+			"primary-color": "#0b7a75",
+			"secondary-color": "#0c120c",
+			"background": "#19535f",
+			"color-scheme": "dark"
+		}
+	}
+]
