@@ -1,6 +1,6 @@
 # Portfolio Site - Khaled Ajaj
 
-A website for showcasing my ability in frontend devleopment while presenting a resume of experience and skillsets.
+A website for showcasing my ability in frontend devleopment while presenting a resume of experience and skillsets. Uses Tailwind for uniform styling conventions.
 
 ## Goals:
 
