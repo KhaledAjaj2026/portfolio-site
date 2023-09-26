@@ -1,13 +1,17 @@
+import NavBar from './components/NavBar/NavBar';
+
 import './Portfolio.css';
 
 export default function Portfolio() {
 	return (
-		<div id="color-theme_titan" className="dark:bg-slate-800 text-red-100">
+		<div id="portfolio_container" className="dark:bg-slate-800 text-orange-100">
+			<NavBar />
+			<div>---------------------------------------</div>
 			<h1 className="text-4xl">
-				Combining <span className="art-font">Arts</span> and{' '}
+				Combining the <span className="art-font">Arts</span> and{' '}
 				<span className="code-font">Development</span>
 			</h1>
-			<div className="">
+			<div id="" className="">
 				<h2>list of things:</h2>
 				<ul>
 					<li>this</li>
